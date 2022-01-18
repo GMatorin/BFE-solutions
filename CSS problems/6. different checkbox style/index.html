@@ -1,0 +1,27 @@
+<style>
+    .my-checkbox {
+        
+    }
+
+    input[type="checkbox"] {
+        /* Disable default item */
+        appearance: none;
+        align-self: center;
+        width: 10px;
+        height: 10px;
+        border: none;
+        border-radius: 50%;
+        background-color: gray;
+    }
+
+    input[type="checkbox"]:checked {
+        background-color: green;
+    }
+</style>
+        
+<body>
+    <label class="my-checkbox">
+        <input type="checkbox" />
+        <span>a checkbox</span>
+    </label>
+</body>
